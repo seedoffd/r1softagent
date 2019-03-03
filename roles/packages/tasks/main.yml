@@ -1,0 +1,17 @@
+---
+# tasks file for packages
+- name: Install httpd
+  package: 
+    name: "{{ item }}"
+  with_items:
+    - httpd
+    - telnet
+    - elinks
+    - mysql
+    - php
+    - php-mysql
+    - mariadb-server
+    - Iftp
+    - vsftpd
+  ignore_errors: yes
+
