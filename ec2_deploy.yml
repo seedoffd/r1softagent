@@ -10,5 +10,6 @@
         region: "eu-west-1"
         image: "ami-02a39bdb8e8ee056a"                #"ami-02a39bdb8e8ee056a"
         vpc_subnet_id: "subnet-31ef9a79"
-        count: 1
+        count: 5
+
         
